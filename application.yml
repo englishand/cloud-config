@@ -5,12 +5,12 @@ spring:
  
 ---
 spring: 
-  profiles: test  #开发环境
+  profiles: dev  #开发环境,需要跟上面的环境一致才会被config查到
   application: 
     name: cloud-config-dev
     
 ---
 spring: 
-  profiles: test  #测试环境
+  profiles: test  #测试环境,需要跟上面的环境一致才会被config查到
   application: 
     name: cloud-config-test
